@@ -1,7 +1,7 @@
 /* ---------------------------------------------------------------------------
 * Sistrix API functions (Google Sheets) https://www.sistrix.com/api/domain/ 
 *
-* @description Access Organic API calls from the Sistrix.com API using Google sheets custom functions
+* Access Organic API calls from the Sistrix.com API using Google sheets custom functions
 * @license MIT (http://www.opensource.org/licenses/mit-license.php)
 * @version 1.1 in progress || expansion of functionality 11/13/2018
 * --------------------------------------------------------------------------*/
@@ -47,7 +47,7 @@ Global Object START
 
 var SistrixGlobal = {
   data : {
-    API_KEY : "ENTER YOUR API KEY HERE",
+    API_KEY : "ENTER YOUR API KEY HERE", // @todo create an apikey gs file like a goddamn adult, beau. -beau
     API_CREDIT_ERROR_MESSAGE : "Sorry, either you don't have valid API key in the Global object in the script editor or you don't have credits, please check your credentials and balance at https://www.sistrix.com",
     TYPE_ERROR_MESSAGE : 'Sorry, you didn\'t enter a valid type, use "domain", "host", "path" or "url" as values for type',
     DEFAULT_DB : "us"
