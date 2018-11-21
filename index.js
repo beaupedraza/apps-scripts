@@ -6,7 +6,7 @@ exports.analyzeSyntax = functions.https.onRequest((request, response) => {
     const body = JSON.parse(request.body);
     
     // Your Google Cloud Platform project ID
-    const projectId = 'brilliant-badger';
+    const projectId = 'example-word-salad-123456';
 
     // Instantiates a client
     const language = Language({
@@ -24,7 +24,7 @@ exports.analyzeSyntax = functions.https.onRequest((request, response) => {
     console.log('Origin: ' + origin);
     response.setHeader('Access-Control-Allow-Origin', origin)
 
-    if (origin != 'https://feedback.withclassroom.com') {
+    if (origin != 'https://www.beaupedraza.com') {
         console.log('Invalid Origin');
         response.send([]);
     } else {
