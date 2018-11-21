@@ -9,6 +9,8 @@ relevant-to-your-desires seed terms.
 - I'm using this project as a means of teaching myself Apps Scripting
 - ??????
 - Lots of other project juggling
-- actual work :)
-
+- Python
+- Promises
+- Excuses
+- actual GSD work 
 
