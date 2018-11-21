@@ -13,6 +13,13 @@ Lessons Learned #1: If you want the script to work, see client=
 
 ----------------------------------
 
+Step 1: Build the function for a given (keyword)
+Step 2: Set variables for the JSON output (response) and 
+  for the text within that response
+Step 3: In that response full of json content text, parse!
+Step 4: Turn that readable af badboy into a thing you can use, a variable (keywords)
+...
+Finally: Return keywords
 
 */
 
