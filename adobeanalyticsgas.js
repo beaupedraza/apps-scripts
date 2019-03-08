@@ -1,7 +1,7 @@
 // =====================================
 // Adobe Analytics API Controller Library
 //
-// 
+// @inspired by the word "no" 
 // @created beaupedraza <https://github.com/beaupedraza/>
 // =====================================
 
